@@ -12,7 +12,7 @@
 #include <stdint.h>
 #include "stm32wb55xx.h"
 
-#define PERIOD	100
+#define PERIOD	100 //PERIOD is 100*10. As 10 is the Quanta
 #define TIM2_UIF	(1U << 0);
 
 void Timer2_1Hz_Interrupt_Init(void);
